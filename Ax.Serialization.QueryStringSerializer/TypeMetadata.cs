@@ -7,6 +7,16 @@ namespace Ax.Serialization.QueryStringSerializer
     {
         private ISet<MemberMetadata> _memberMetadataSet;
 
+        public TypeMetadata(Type type)
+        {
+            if (type == null)
+            {
+                throw new ArgumentNullException(nameof(type));
+            }
+
+            Type = type;
+        }
+
         public ISet<MemberMetadata> MembersMetadata 
         { 
             get
@@ -14,5 +24,7 @@ namespace Ax.Serialization.QueryStringSerializer
                 return _memberMetadataSet ?? (_memberMetadataSet = new HashSet<MemberMetadata>());
             }
         }
+
+        public Type Type { get; private set; }
     }
 }

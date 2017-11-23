@@ -17,7 +17,7 @@ namespace Ax.Serialization.QueryStringSerializer
                 throw new ArgumentNullException();
             }
 
-            var result = new TypeMetadata();
+            var result = new TypeMetadata(type);
 
             var membersMetadata = 
                 type.GetRuntimeFields()
