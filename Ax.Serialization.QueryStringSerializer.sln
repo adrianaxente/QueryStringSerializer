@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ax.Serialization.QueryStringSerializer", "Ax.Serialization.QueryStringSerializer\Ax.Serialization.QueryStringSerializer.csproj", "{02C8C5D1-7C23-4969-8C04-38598BA8F003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ax.Serialization.QueryStringSerializer.ConsoleTest", "Ax.Serialization.QueryStringSerializer.ConsoleTest\Ax.Serialization.QueryStringSerializer.ConsoleTest.csproj", "{07A3C8C1-0BA9-465A-9D89-96BD62498873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C8C5D1-7C23-4969-8C04-38598BA8F003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C8C5D1-7C23-4969-8C04-38598BA8F003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C8C5D1-7C23-4969-8C04-38598BA8F003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C8C5D1-7C23-4969-8C04-38598BA8F003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A3C8C1-0BA9-465A-9D89-96BD62498873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A3C8C1-0BA9-465A-9D89-96BD62498873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A3C8C1-0BA9-465A-9D89-96BD62498873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A3C8C1-0BA9-465A-9D89-96BD62498873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
